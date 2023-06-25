@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aim Trainer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+
+        <script src="utils.js"></script>
+
+    </head>
+
+    <body>
+        <!-- El primer div es la barra donde se presenta el tiempo, puntuacion y el highscore -->
+        <div id="GameBar"><span id="score">Score:<span id="scorecount">0</span></span><span id="Time">Time:<span id="timecount">0</span></span><span id="HighScore">HighScore:<span id="hscount">0</span></span></div>
+        <!-- El segundo div es la ventana donde aparecen los circulos y donde se juega -->
+        <div id="GameWindow"><button id="Play" onclick="this.remove();PlayGame();">Play Game</button></div>
+    </body>
+</html>
